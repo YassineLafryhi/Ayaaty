@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.Button?>
+<Pane prefHeight="777.0" prefWidth="1083.0" style="-fx-background-radius: 5em;-fx-background-color:#222f3e;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Label fx:id="Title" alignment="CENTER" contentDisplay="CENTER" layoutX="-3.0" layoutY="-3.0" prefHeight="79.0" prefWidth="1091.0" text="آياتي" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="52.0" />
+            </font>
+        </Label>
+        <Label fx:id="MS" alignment="CENTER" contentDisplay="CENTER" layoutX="559.0" layoutY="89.0"  prefHeight="77.0" prefWidth="492.0" style="-fx-background-radius: 5em;-fx-background-color:#e74c3c;" text="مواقيت الصلاة" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="42.0" />
+            </font>
+        </Label>
+        <Label fx:id="QK" alignment="CENTER" contentDisplay="CENTER" layoutX="32.0" layoutY="89.0"  prefHeight="77.0" prefWidth="492.0" style="-fx-background-radius: 5em;-fx-background-color:#e74c3c;" text="القرآن الكريم" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="42.0" />
+            </font>
+        </Label>
+        <Label fx:id="P1" alignment="CENTER" contentDisplay="CENTER" layoutX="805.0" layoutY="179.0"  prefHeight="47.0" prefWidth="214.0" style="-fx-background-color:#e74c3c;-fx-border-color: black" text="صلاة الفجر مع :" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="Prayer1" alignment="CENTER" contentDisplay="CENTER" layoutX="592.0" layoutY="179.0"  prefHeight="47.0" prefWidth="214.0" style="-fx-background-color:#2c3e50;-fx-border-color: black" text="06:31" textFill="WHITE">
+            <font>
+                <Font name="JF Flat Regular" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="P2" alignment="CENTER" contentDisplay="CENTER" layoutX="805.0" layoutY="225.0"  prefHeight="47.0" prefWidth="214.0" style="-fx-background-color:#e74c3c;-fx-border-color: black" text="صلاة الظهر مع :" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="Prayer2" alignment="CENTER" contentDisplay="CENTER" layoutX="592.0" layoutY="225.0"  prefHeight="47.0" prefWidth="214.0" style="-fx-background-color:#2c3e50;-fx-border-color: black" text="13:23" textFill="WHITE">
+            <font>
+                <Font name="JF Flat Regular" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="P3" alignment="CENTER" contentDisplay="CENTER" layoutX="805.0" layoutY="271.0"  prefHeight="47.0" prefWidth="214.0" style="-fx-background-color:#e74c3c;-fx-border-color: black" text="صلاة العصر مع :" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="Prayer3" alignment="CENTER" contentDisplay="CENTER" layoutX="592.0" layoutY="271.0"  prefHeight="47.0" prefWidth="214.0" style="-fx-background-color:#2c3e50;-fx-border-color: black" text="16:14" textFill="WHITE">
+            <font>
+                <Font name="JF Flat Regular" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="P4" alignment="CENTER" contentDisplay="CENTER" layoutX="805.0" layoutY="317.0"  prefHeight="47.0" prefWidth="214.0" style="-fx-background-color:#e74c3c;-fx-border-color: black" text="صلاة المغرب مع :" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="Prayer4" alignment="CENTER" contentDisplay="CENTER" layoutX="592.0" layoutY="317.0"  prefHeight="47.0" prefWidth="214.0" style="-fx-background-color:#2c3e50;-fx-border-color: black" text="18:39" textFill="WHITE">
+            <font>
+                <Font name="JF Flat Regular" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="P5" alignment="CENTER" contentDisplay="CENTER" layoutX="805.0" layoutY="363.0"  prefHeight="47.0" prefWidth="214.0" style="-fx-background-color:#e74c3c;-fx-border-color: black" text="صلاة العشاء مع :" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="Prayer5" alignment="CENTER" contentDisplay="CENTER" layoutX="592.0" layoutY="363.0"  prefHeight="47.0" prefWidth="214.0" style="-fx-background-color:#2c3e50;-fx-border-color: black" text="19:55" textFill="WHITE">
+            <font>
+                <Font name="JF Flat Regular" size="20.0" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="AQL" alignment="CENTER" contentDisplay="CENTER" layoutX="559.0" layoutY="424.0"  prefHeight="77.0" prefWidth="492.0" style="-fx-background-radius: 5em;-fx-background-color:#e74c3c;" text="أدعية قرآنية" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="42.0" />
+            </font>
+        </Label>
+
+
+
+        <Button fx:id="SB1" alignment="CENTER" contentDisplay="CENTER" layoutX="636.0" layoutY="721.0" onAction="#ShowAnotherPQ" prefHeight="47.0" prefWidth="336.0" style="-fx-background-radius: 5em;-fx-background-color:#e74c3c;" text="عرض دعاء قرآني آخر" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="24.0" />
+            </font>
+        </Button>
+
+
+
+        <Label fx:id="PQTF" alignment="CENTER" contentDisplay="CENTER" layoutX="559.0" layoutY="512.0"  prefHeight="196.0" prefWidth="492.0" style="-fx-background-radius: 5em;-fx-background-color:#2c3e50;" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="18.0" />
+            </font>
+        </Label>
+
+
+
+        <Button fx:id="SB2" alignment="CENTER" contentDisplay="CENTER" layoutX="108.0" layoutY="721.0"  onAction="#ShowAnotherPN" prefHeight="47.0" prefWidth="336.0" style="-fx-background-radius: 5em;-fx-background-color:#e74c3c;" text="عرض ذكر عظيم آخر" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="24.0" />
+            </font>
+        </Button>
+
+
+
+        <Label fx:id="PNTF" alignment="CENTER" contentDisplay="CENTER" layoutX="31.0" layoutY="512.0"  prefHeight="196.0" prefWidth="492.0" style="-fx-background-radius: 5em;-fx-background-color:#2c3e50;" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="18.0" />
+            </font>
+        </Label>
+
+
+
+
+        <Label fx:id="AAL" alignment="CENTER" contentDisplay="CENTER" layoutX="32.0" layoutY="424.0"  prefHeight="77.0" prefWidth="492.0" style="-fx-background-radius: 5em;-fx-background-color:#e74c3c;" text="أذكار عظيمة" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="42.0" />
+            </font>
+        </Label>
+
+
+        <Button fx:id="S" alignment="CENTER" contentDisplay="CENTER" layoutX="33.0" layoutY="174.0"  onAction="#Saad" prefHeight="77.0" prefWidth="492.0" style="-fx-background-radius: 5em;-fx-background-color:#2c3e50;" text="الاستماع لسورة قرآنية&#10;بصوت القارئ سعد الغامدي" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="22.0" />
+            </font>
+        </Button>
+
+
+        <Button fx:id="F" alignment="CENTER" contentDisplay="CENTER" layoutX="33.0" layoutY="255.0"  onAction="#Fares" prefHeight="77.0" prefWidth="492.0" style="-fx-background-radius: 5em;-fx-background-color:#2c3e50;" text="الاستماع لسورة قرآنية&#10;بصوت القارئ فارس عباد" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="22.0" />
+            </font>
+        </Button>
+
+
+
+        <Button fx:id="A" alignment="CENTER" contentDisplay="CENTER" layoutX="33.0" layoutY="336.0"  onAction="#Ahmed" prefHeight="77.0" prefWidth="492.0" style="-fx-background-radius: 5em;-fx-background-color:#2c3e50;" text="الاستماع لسورة قرآنية&#10;بصوت القارئ أحمد العجمي" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Tajawal" size="22.0" />
+            </font>
+        </Button>
+
+
+
+    </children>
+</Pane>
