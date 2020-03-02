@@ -10,10 +10,7 @@
 
 ## Prerequisites
 
-- Install the font Tajawal, which is located in :
-```
-/fonts/Tajawal.ttf
-```
+- Install the font Tajawal, which is located in ```/fonts/```
 
 ## Screenshots
 
