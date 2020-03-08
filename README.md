@@ -1,5 +1,5 @@
 # Ayaaty
->
+>A JAVA desktop application to listen to quran, show quranic supplications and Dhikr
 
 ![](https://img.shields.io/badge/build-passing-brightgreen)
 ![](https://img.shields.io/badge/license-MIT-blue)
@@ -10,7 +10,7 @@
 
 ## Prerequisites
 
-- Install the font Tajawal, which is located in ```/fonts/```
+- Install the fonts, which are located in ```/fonts/```
 
 ## Screenshots
 
