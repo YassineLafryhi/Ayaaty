@@ -7,6 +7,7 @@
 
 ## Built With
 * [JavaFX](https://openjfx.io/)
+* [Jsoup](https://jsoup.org/)
 
 ## Prerequisites
 
