@@ -1,9 +1,4 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by Fernflower decompiler)
-//
-
-package sample;
+package me.ayaaty;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -14,21 +9,18 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 public class Main extends Application {
-    public static Stage ps;
-
-    public Main() {
-    }
+    public static Stage primaryStage;
 
     public void start(Stage primaryStage) throws Exception {
-        Parent root = (Parent)FXMLLoader.load(this.getClass().getResource("Main.fxml"));
-        Scene s = new Scene(root);
-        s.setFill(Color.TRANSPARENT);
-        s.getStylesheets().add("Style.css");
-        primaryStage.setScene(s);
+        Parent parent = FXMLLoader.load(getClass().getClassLoader().getResource("views/main.fxml"));
+        Scene scene = new Scene(parent);
+        scene.setFill(Color.TRANSPARENT);
+        scene.getStylesheets().add(getClass().getClassLoader().getResource("css/style.css").toExternalForm());
+        primaryStage.setScene(scene);
         primaryStage.setResizable(false);
         primaryStage.initStyle(StageStyle.TRANSPARENT);
         primaryStage.show();
-        ps = primaryStage;
+        Main.primaryStage = primaryStage;
     }
 
     public static void main(String[] args) {
