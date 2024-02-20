@@ -33,6 +33,3 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 [MIT License](https://choosealicense.com/licenses/mit/)
-## Contact
-- Yassine Lafryhi - [@YassineLafryhi](https://twitter.com/YassineLafryhi) - [y.lafryhi@gmail.com](mailto:y.lafryhi@gmail.com)
-- Project Link : [https://github.com/Yassine-Lafryhi/Ayaaty](https://github.com/Yassine-Lafryhi/Ayaaty)
